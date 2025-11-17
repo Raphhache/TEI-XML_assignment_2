@@ -1,5 +1,5 @@
 
-# Reflection note#
+# Reflection note
 
 In Assignment 1, the structure defined in my DTD was very limited. The whole encoding project was contained in a parent element called "Myletters", whose children element "letter" identified each letter, and contained the whole encoding of each one. The encoding was only composed by elements dedicated to the author and the destination of the letters, by a "body" element which aimed at containing the different paragraphs of the text, and by elements linked to the informations that appear at the end of the letters, such as the place and the date where they were written. At the end, the "url" element aimed at containing the link of the sources.  
 
