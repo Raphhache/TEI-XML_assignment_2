@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettres de Madame de Sévigné, de sa famille et de ses amis</title>
+            <author>Marie de Rabutin-Chantal, marquise de Sévigné (1626-1696)</author>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>Wikisource : la bibliothèque Libre</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson>
+               <person xml:id="Sév_001">
+                  <persName>Madame de Sévigné</persName>
+                  <idno type="wikidata">Q237103</idno>
+               </person>
+               <person xml:id="Rab_001">
+                  <persName>Roger de Rabutin, <roleName>Comte de Bussy</roleName></persName>
+                  <idno type="wikidata">Q733246</idno>
+               </person>
+               <person xml:id="Rab_002">
+                  <persName>le jeune Rabutin</persName>
+               </person>
+               <person xml:id="Abbé_001">
+                  <persName>abbé de Coulanges</persName>
+               </person>
+               <person xml:id="Bou_001">
+                  <persName>M. du Bouchet</persName>
+               </person>
+               <personGrp xml:id="de_Rab_001">
+                  <persName>de Rabutin</persName>
+                  <idno type="wikidata">Q56654956</idno>
+               </personGrp>
+               <person xml:id="Prin_001">
+                  <persName>Madame la Princesse</persName>
+               </person>
+               <person xml:id="Duv_001">
+                  <persName>Valet Duval</persName>
+               </person>
+               <person xml:id="Gri_001">
+                  <persName>Madame de Grignan (1646-1705), Daughter of the Comtesse de Sévigné</persName>
+                  <idno type="wikidata">Q88219113</idno>
+               </person>
+             </listPerson>
+            <listPlace>
+               <place xml:id="Prov_001">
+                  <placeName>Provence</placeName>
+                  <location>
+                     <geo>44°0'N, 6°0'E</geo>
+                  </location>
+                  <idno type="wikidata">Q101081</idno>
+               </place>
+               <place xml:id="Condé_001">
+                  <placeName>hôtel de Condé</placeName>
+                  <location>
+                     <geo>48°51'2.2320"N, 2°20'18.7080"E</geo>
+                  </location>
+                  <idno type="wikidata">Q3145819</idno>
+               </place>
+            </listPlace>
+            <biblStruct>
+               <monogr>
+                  <editor>Louis Monmerqué</editor>
+                  <title>Lettres de Madame de Sévigné, de sa famille et de ses amis</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Hachette</publisher>
+                     <date>1862</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="fr">français</language>
+        </langUsage>
+        <creation>
+           <date>1671</date>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <pb n="39"/>
+        <div type="letter">
+           <opener>
+              <title>128.</title> — DE <persName ref="#Sév_001">MADAME DE SÉVIGNÉ</persName> AU <persName ref="#Rab_001">COMTE DE BUSSY RABUTIN</persName>
+        <dateline><name type="place">À Paris</name>, <date>ce 23e janvier 1671</date>.</dateline>
+     </opener>
+         <p>Voilà, mon cousin, tout ce que l’<persName ref="#Abbé_001">abbé de Coulanges</persName> sait de notre maison, 
+            dont vous avez dessein de faire une petite histoire. Je voudrois que vous 
+            n’eussiez jamais fait que celle-là. Nous sommes très-obligés à <persName ref="#Bou_001">M. du Bouchet</persName> : il 
+            nous démêle fort et nous fait valoir en des occasions qui font plaisir. En vérité, 
+            c’est peu de n’avoir que moi pour représenter ici <persName ref="#de_Rab_001">le corps des Rabutins</persName>. Je suis 
+            transplantée, et ce que l’on dit soi-même, outre qu’on ne voudroit guère souvent 
+            parler sur ce chapitre, ne fait pas un grand effet.</p>
+         <p>On me vient de conter une aventure extraordinaire qui s’est passée à l’<placeName ref="#Condé_001">hôtel 
+            de Condé</placeName>, et qui mériteroit de vous être mandée, quand nous n’y aurions pas 
+            l’intérêt que nous y avons. La voici : <persName ref="#Prin_001">Madame la Princesse</persName> ayant pris il y a 
+            quelque temps de l’affection pour un de ses valets de pied nommé <persName>Duval</persName>, 
+            celui-ci fut assez fou pour souffrir impatiemment la bonne volonté qu’elle 
+            <pb n="40"/>témoignoit aussi pour <persName ref="#Rab_002">le jeune Rabutin</persName>, qui avoit été son page. Un jour qu’ils 
+            se trouvoient tous deux dans sa chambre, <persName ref="#Duv_001">Duval</persName> ayant dit quelque chose qui 
+            manquoit de respect à la princesse, <persName ref="#Rab_002">Rabutin</persName> mit l’épée à la main pour l’en 
+            châtier ; <persName ref="#Duv_001">Duval</persName> tira aussi la sienne, et la princesse se mettant entre-deux pour les
+            séparer, elle fut blessée légèrement à la gorge. On a arrêté <persName ref="#Duv_001">Duval</persName>, et <persName ref="#Rab_002">Rabutin</persName>
+            est en fuite ; cela fait grand bruit en ce pays-ci. Quoique le sujet de la noise soit 
+            honorable, je n’aime pas qu’on nomme un valet de pied avec <persName ref="#Rab_002">Rabutin</persName>. Je vous 
+            avoue que je ne suis guère humble, et que j’aurois eu une grande joie que vous
+            eussiez fait de notre nom tout ce qui étoit en vos mains. Adieu, mon pauvre 
+            <persName ref="#Rab_001">Rabutin</persName>, non pas celui qui s’est battu contre <persName ref="#Duv_001">Duval</persName>, mais un autre qui eût bien fait 
+            de l’honneur à ses parents, s’il avoit plu à la destinée. Je vous souhaite la 
+            continuation de votre philosophie, et à moi celle de votre amitié ; elle ne sauroit 
+            périr, quoi que nous puissions faire. Elle est d’une bonne trempe, et le fond en 
+            tient à nos os. <persName ref="#Gri_001">Ma fille</persName> vous fait mille compliments, et mille adieux : elle s’en va 
+            au diantre en <placeName ref="#Prov_001"><region>Provence</region></placeName> ; je suis inconsolable de cette séparation. J’embrasse 
+            mes chères nièces.</p>
+        </div>
+      </body>
+  </text>
+</TEI>

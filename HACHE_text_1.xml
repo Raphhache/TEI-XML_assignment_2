@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Lettres Persanes</title>
+            <author>Charles Louis de Secondat, baron de La Brède et de Montesquieu (1689-1755)</author>
+         </titleStmt>
+         <publicationStmt>
+            <distributor>Wikisource : la bibliothèque Libre</distributor>
+         </publicationStmt>
+         <sourceDesc>
+            <listPerson>
+               <person xml:id="Rica_001">
+                  <persName>Rica</persName>
+               </person>
+               <person xml:id="Ibben_001">
+                  <persName>Ibben</persName>
+               </person>
+               <personGrp xml:id="vieil_001">
+                  <persName>vieillards</persName>
+               </personGrp>
+               <personGrp xml:id="hom_001">
+                  <persName>hommes</persName>
+               </personGrp>
+               <personGrp xml:id="fem_001">
+                  <persName>femmes</persName>
+               </personGrp>
+               <personGrp xml:id="enf_001">
+                  <persName>enfants</persName>
+               </personGrp>
+               <personGrp xml:id="gens_001">
+                  <persName>gens</persName>
+               </personGrp>
+            </listPerson>
+            <listPlace>
+               <place xml:id="Smy_001">
+                  <placeName>Smyrne</placeName>
+                  <location>
+                     <geo>38°25'7.00"N, 27°8'34.21"E</geo>
+                  </location>
+                  <idno type="wikidata">Q1379299</idno>
+               </place>
+               <place xml:id="Par_001">
+                  <placeName>Paris</placeName>
+                  <location>
+                     <geo>48°51'24"N, 2°21'8"E</geo>
+                  </location>
+                  <idno type="wikidata">Q90</idno>
+               </place>
+               <place>
+                  <placeName xml:id="Tuil_001">Tuileries</placeName>
+                  <location>
+                     <geo>48°51'50"N, 2°19'34"E</geo>
+                  </location>
+                  <idno type="wikidata">Q818517</idno>
+               </place>
+            </listPlace>
+            <biblStruct>
+               <monogr>
+                  <editor>André Lefèvre</editor>
+                  <title>Lettres persanes par Montesquieu, avec préface, notes et variantes, index philosophique, historique, littéraire</title>
+                  <imprint>
+                     <pubPlace>Paris</pubPlace>
+                     <publisher>Alphonse Lemerre</publisher>
+                     <date>1873</date>
+                  </imprint>
+               </monogr>
+            </biblStruct>
+         </sourceDesc>
+      </fileDesc>
+     <profileDesc>
+        <langUsage>
+           <language ident="fr">français</language>
+        </langUsage>
+        <creation>
+           <date>1721</date>
+        </creation>
+     </profileDesc>
+  </teiHeader>
+  <text>
+     <body>
+        <pb n="67"/>
+        <div type="letter">
+           <opener>
+              <title>LETTRE xxx.</title>
+              <persName>Rica</persName> au <persName ref="#Ibben">même</persName>.
+              <placeName ref="#Smy_001">À Smyrne.</placeName>
+           </opener>
+            <p>Les habitants de <placeName ref="#Par_001">Paris</placeName> sont d’une curiosité qui va jusqu’à l’extravagance. 
+            Lorsque j’arrivai, je fus regardé comme si j’avois été envoyé du ciel : 
+            <persName ref="#vieil_001">vieillards</persName>, <persName ref="hom_001">hommes</persName>, <persName ref="#fem_001">femmes</persName>, <persName ref="#enf_001">enfants</persName>, tous vouloient me voir. Si je sortois, tout le
+            monde se mettoit aux fenêtres ; si j’étois aux <placeName ref="#Tuil_001">Tuileries</placeName>, je voyois aussitôt un
+            cercle se former autour de moi ; les <persName ref="#fem_001">femmes</persName> mêmes faisoient un arc-en-ciel 
+            nuancé de mille couleurs, qui m’entouroit ; si j’étois aux spectacles, je trouvois 
+            d’abord cent lorgnettes dressées contre ma figure : enfin jamais homme n’a tant 
+            été vu que moi. Je souriois quelquefois d’entendre des <persName ref="#gens_001">gens</persName> qui n’étoient 
+            presque jamais sortis de leur chambre, qui disoient entre eux : Il faut avouer qu’il 
+            a l’air bien persan. Chose admirable ! Je trouvois de mes portraits partout ; je me 
+            voyois multiplié dans toutes les boutiques, sur toutes les cheminées, tant on 
+            craignoit de ne m’avoir pas assez vu.</p>
+            <p>Tant d’honneurs ne laissent pas d’être à charge : je ne me croyois pas un 
+            homme si curieux et si rare ; et, quoique j’aie très-bonne opinion de moi, je ne 
+            me serois jamais imaginé que je dusse troubler le repos d’une grande ville où je 
+            n’étois point connu. Cela me fit résoudre à quitter l’habit persan et à en endosser
+            un à l’européenne,<pb n="68"/>pour voir s’il resteroit encore dans ma physionomie quelque 
+            chose d’admirable. Cet essai me fit connoître ce que je valois réellement : libre 
+            de tous les ornements étrangers, je me vis apprécié au plus juste. J’eus sujet de
+            me plaindre de mon tailleur, qui m’avoit fait perdre en un instant l’attention et 
+            l’estime publique : car j’entrai tout à coup dans un néant affreux. Je demeurois 
+            quelquefois une heure dans une compagnie sans qu’on m’eût regardé, et qu’on 
+            m’eût mis en occasion d’ouvrir la bouche. Mais, si quelqu’un, par hasard, 
+            apprenoit à la compagnie que j’étois Persan, j’entendois aussitôt autour de moi 
+            un bourdonnement : Ah ! ah ! Monsieur est Persan ? c’est une chose bien 
+            extraordinaire ! Comment peut-on être Persan ?</p>
+           <closer>
+              <dateline>
+                 <name type="place">À Paris</name>, <date>le 6 de la lune de Chalval, 1712.</date>
+              </dateline>
+           </closer>
+        </div>
+     </body>
+  </text>
+</TEI>
